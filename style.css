@@ -1,0 +1,43 @@
+body {
+    background-color: rgb(32, 32, 32);
+    color: white;
+    margin: 0;
+}
+
+header#top-bar {
+    background-color: rgb(87, 3, 182);
+    width: 100%;
+    height: 50px;
+}
+
+a.header-link {
+    font-weight: bold;
+    text-decoration: none;
+    color: rgb(25, 211, 218);
+}
+
+a.header-link:hover {
+    animation: draw-underline 500ms linear forwards 1;
+}
+
+@keyframes draw-underline {
+    0% {
+        text-decoration: none;
+    }
+
+    33% {
+        text-decoration: dotted;
+    }
+
+    67% {
+        text-decoration: dashed;
+    }
+
+    100% {
+        text-decoration: underline;
+    }
+}
+
+p {
+    max-width: 50em;
+}

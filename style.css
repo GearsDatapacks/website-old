@@ -46,13 +46,23 @@ a.header-link {
     font-weight: bold;
     text-decoration: none;
     color: rgb(25, 211, 218);
-    margin: 10px;
+    margin-right: 10px;
     padding: 5px;
     border: 2px solid rgb(25, 211, 218);
+    transition: 100ms font-size;
+}
+
+span.header-disabled {
+    font-weight: bold;
+    color: rgb(130, 146, 146);
+    margin-right: 10px;
+    padding: 5px;
+    border: 2px solid rgb(130, 146, 146);
 }
 
 a.header-link:hover {
     text-decoration: underline;
+    font-size: 1.2em;
 }
 
 p {

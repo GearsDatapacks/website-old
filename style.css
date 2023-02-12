@@ -32,12 +32,17 @@ header#top-bar {
     padding-top: 20px;
 }
 
+header#top-bar * {
+    user-select: none;
+    font-family: sans-serif;
+}
+
 a#heading {
     font-size: 2em;
     font-weight: bold;
     position: absolute;
     left: 10px;
-    top: 10px;
+    top: 13px;
     color: white;
     text-decoration: none;
 }
@@ -63,6 +68,15 @@ span.header-disabled {
 a.header-link:hover {
     text-decoration: underline;
     font-size: 1.2em;
+}
+
+a.inline-link {
+    color: inherit;
+    text-decoration: none;
+}
+
+a.inline-link:hover {
+    text-decoration: underline;
 }
 
 p {
